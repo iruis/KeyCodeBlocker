@@ -131,7 +131,7 @@ public:
         , hWnd(NULL)
     {
         lock[VK_LWIN] = true;
-        lock[VK_RWIN] = true;
+        //lock[VK_RWIN] = true;
 
         labelFont = CreateFont(14, 0, 0, 0, FW_BOLD, 0, 0, 0, HANGEUL_CHARSET, OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS, DEFAULT_QUALITY, DEFAULT_PITCH | FF_SWISS, TEXT("맑은 고딕"));
         counterFont = CreateFont(12, 0, 0, 0, FW_NORMAL, 0, 0, 0, HANGEUL_CHARSET, OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS, DEFAULT_QUALITY, VARIABLE_PITCH | FF_SWISS, TEXT("맑은 고딕"));
